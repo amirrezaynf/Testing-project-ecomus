@@ -110,7 +110,7 @@ export default function Navbar() {
             <li className="flex items-center ease-in-out hover:border-b-2">
               Product <IoIosArrowDown className="ml-1" />
             </li>
-            <li className="flex items-center ease-in-out hover:border-b-2">
+            <li className="vahid flex origin-left items-center ease-in-out hover:origin-right hover:border-b-2">
               Page <IoIosArrowDown className="ml-1" />
             </li>
             <li className="flex items-center ease-in-out hover:border-b-2">

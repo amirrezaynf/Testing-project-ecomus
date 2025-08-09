@@ -10,7 +10,7 @@ export default function PicProduct() {
         src="/picproduct.png"
         alt="product pic"
         fill
-        style={{ objectFit: "cover" }} // اینجا تغییر دادم از contain به cover
+        style={{ objectFit: "cover" }}
         priority
       />
 

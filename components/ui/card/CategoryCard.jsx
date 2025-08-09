@@ -5,7 +5,7 @@ import React from "react";
 import { FaRegHeart } from "react-icons/fa";
 import { MdCompareArrows } from "react-icons/md";
 import { RiShoppingBag2Line } from "react-icons/ri";
-import Link from "next/link"; // کامپوننت Link را وارد می‌کنیم
+import Link from "next/link";
 
 export default function CategoryCard({
   title,
@@ -15,8 +15,8 @@ export default function CategoryCard({
   discountedPrice,
   discount,
   color,
-  currentGridCols, // پراپ جدید برای دریافت تعداد ستون‌ها
-  productId, // پراپ جدید برای ID محصول
+  currentGridCols,
+  productId,
 }) {
   const hasDiscount = discount > 0;
 
@@ -37,11 +37,9 @@ export default function CategoryCard({
     currentGridCols === 1 ? "" : "shadow-sm hover:shadow-md";
 
   return (
-    // کل کارت را با Link محصور می‌کنیم
     <Link href={`/products/${productId}`} className="block w-full">
       <div
         className={`group relative flex w-full flex-col items-center gap-5 rounded-2xl border-2 border-stone-100 bg-white p-3 ${shadowClasses} transition-shadow duration-200 lg:h-[470px] ${cardLayoutClass}`}
-        // ارتفاع کارت را در حالت تک ستون افزایش می‌دهیم تا محتوا جا شود
         style={currentGridCols === 1 ? { height: "25rem" } : {}}
       >
         {/* برچسب تخفیف */}
@@ -112,7 +110,6 @@ export default function CategoryCard({
               </div>
             </div>
           )}
-          {/* --------------------------------------------------- */}
 
           {/* رنگ‌ها */}
           <div className="mt-3 flex gap-2">

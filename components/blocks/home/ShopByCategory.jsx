@@ -2,7 +2,6 @@ import React from "react";
 import NavigationCategory from "../../ui/slider/NavigationCategory";
 import ShopByCategoryCard from "../../ui/card/ShopByCategoryCard";
 
-// تابع کمکی برای تبدیل عنوان به slug
 const toSlug = (title) => {
   return title.toLowerCase().replace(/\s+/g, "-");
 };
@@ -39,7 +38,6 @@ const items = [
 ];
 
 export default function ShopByCategory() {
-  // map کردن روی آرایه items و اضافه کردن slug به هر آیتم
   const itemsWithSlugs = items.map((item) => ({
     ...item,
     slug: toSlug(item.title),

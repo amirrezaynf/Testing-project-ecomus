@@ -14,7 +14,6 @@ export default function PapularProduct() {
     .sort((a, b) => b.price - a.price)
     .slice(0, 8);
 
-  // ✅ دکمه برای اضافه کردن به سبد خرید
   const button = (
     <Button className="w-full rounded-full p-5" variant="outline">
       Add To Cart
