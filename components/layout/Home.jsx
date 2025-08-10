@@ -1,4 +1,3 @@
-"use client";
 import Autoplayer from "@/components/ui/banner/AutoPlayerBanner";
 import Brand from "@/components/ui/banner/BrandBanner";
 import HotDeals from "@/components/modules/home/HotDeals";
@@ -8,20 +7,17 @@ import Review from "@/components/modules/home/Review";
 import Services from "@/components/modules/home/Services";
 import ShopByCategory from "@/components/modules/home/ShopByCategory";
 import PicProduct from "@/components/modules/home/PicProduct";
-import dynamic from "next/dynamic";
 import Image from "next/image";
+import MapView from "@/components/ui/map/MapView";
 
 import Imageslider from "@/components/ui/slider/Imageslider";
 
 export default function Homepage() {
-  const MapView = dynamic(() => import("@/components/ui/map/MapView"), {
-    ssr: false,
-  });
   return (
     <>
       <div className="relative h-[30rem] md:h-[30rem] lg:h-[38rem] xl:h-[58rem]">
         <Image
-          src="/homeimg.png"
+          src="/background/homeimg.png"
           alt="home"
           fill
           className="object-cover"

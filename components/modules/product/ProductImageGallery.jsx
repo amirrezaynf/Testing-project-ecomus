@@ -1,6 +1,3 @@
-// components/products/ProductImageGallery.js
-"use client";
-
 import Image from "next/image";
 
 export default function ProductImageGallery({

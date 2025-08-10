@@ -9,31 +9,31 @@ const toSlug = (title) => {
 const items = [
   {
     title: "Controllers",
-    img: "/Group_1.webp",
+    img: "/category/Group_1.webp",
   },
   {
     title: "Keyboards",
-    img: "/Group-2.jpg",
+    img: "/category/Group-2.jpg",
   },
   {
     title: "Mice",
-    img: "/Group_3.webp",
+    img: "/category/Group_3.webp",
   },
   {
     title: "Headsets",
-    img: "/Group_4.webp",
+    img: "/category/Group_4.webp",
   },
   {
     title: "Flight simulation",
-    img: "/Group_5.webp",
+    img: "/category/Group_5.webp",
   },
   {
     title: "Race simulation",
-    img: "/Group_6.webp",
+    img: "/category/Group_6.webp",
   },
   {
     title: "Monitor",
-    img: "/Group_7.jpg",
+    img: "/category/Group_7.jpg",
   },
 ];
 

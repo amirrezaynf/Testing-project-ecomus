@@ -14,6 +14,9 @@ import { RiMenu2Fill } from "react-icons/ri";
 import { IoIosArrowDown } from "react-icons/io";
 import { TbCategory } from "react-icons/tb";
 import Image from "next/image";
+// وارد کردن صحیح کامپوننت‌های Drawer از فایل مربوطه
+
+import MenuNavbar from "../modules/home/MenuNavbar";
 
 export default function Navbar() {
   const [showNavbar, setShowNavbar] = useState(true);
@@ -43,18 +46,17 @@ export default function Navbar() {
       }`}
     >
       <div className="grid w-full grid-cols-3 grid-rows-1 items-center justify-between border-b px-4 py-[0.7rem] xl:h-25 xl:border-b-amber-50">
-        {/* #mobile-menu } */}
-        <div className="xl:hidden">
-          <RiMenu2Fill size={24} />
+        <div className="md:hidden">
+          {/* استفاده از Drawer به صورت صحیح */}
+          <MenuNavbar />
         </div>
         <Link
           href="/"
           className="justify-self-center text-[2rem] font-semibold text-stone-50 xl:ml-11 xl:justify-self-start"
         >
-          <Image src="/logo.svg" width={150} height={200} alt="logo" />
+          <Image src="/logo/logo.svg" width={150} height={200} alt="logo" />
         </Link>
-
-        {/* {#desktop-search} */}
+        {/* Desktop Search */}
         <div className="hidden w-[28rem] justify-between justify-self-center rounded-full bg-stone-50 px-5 py-1.5 xl:flex">
           <input
             type="search"
@@ -66,7 +68,6 @@ export default function Navbar() {
             <FaSearch />
           </button>
         </div>
-
         <div className="mr-8 hidden items-center justify-end space-x-3 text-stone-50 xl:flex">
           <div className="flex cursor-pointer font-bold hover:text-primary">
             <FiUser size={24} className="mr-2" /> Login
@@ -81,11 +82,9 @@ export default function Navbar() {
             <RiShoppingBag2Line size={35} />
           </div>
         </div>
-
         <div className="flex justify-end space-x-2 xl:hidden">
           <FaSearch size={22} /> <RiShoppingBag2Line size={22} />
         </div>
-
         <nav className="xl:bolck hidden space-x-4">
           <Link href="/products">Products</Link>
           <Link href="/categories/gaming">Gaming</Link>

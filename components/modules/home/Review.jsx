@@ -28,7 +28,7 @@ export default function Review() {
   return (
     <div className="relative h-[23rem]! w-full overflow-hidden rounded-2xl md:h-[25rem]! lg:h-[33rem]! xl:px-30 xl:py-10">
       <Image
-        src="/review.png"
+        src="/background/review.png"
         alt="Review Background"
         fill
         className="-z-10 object-cover"

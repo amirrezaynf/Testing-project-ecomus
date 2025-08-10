@@ -21,7 +21,7 @@ export default function Footer() {
       <div className="mx-14 mt-7 grid grid-cols-1 gap-4 text-sm text-stone-50 md:grid-cols-2 xl:grid-cols-4">
         <div>
           <div className="mt-2 mb-10 flex-wrap">
-            <Image src="/logo.svg" width={150} height={20} alt="logo" />
+            <Image src="/logo/logo.svg" width={150} height={20} alt="logo" />
           </div>
           <ul className="mt-4 flex flex-col items-start justify-start space-y-3 text-stone-400">
             <li>Address: 1234 Fashion Street, Suite 567, New York, NY</li>

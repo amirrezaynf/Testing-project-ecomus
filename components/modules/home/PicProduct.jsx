@@ -7,7 +7,7 @@ export default function PicProduct() {
   return (
     <div className="relative h-[300px] w-full bg-gray-100 sm:h-[400px] md:h-[500px] lg:h-[42rem]">
       <Image
-        src="/picproduct.png"
+        src="/background/picproduct.png"
         alt="product pic"
         fill
         style={{ objectFit: "cover" }}
@@ -37,23 +37,6 @@ export default function PicProduct() {
           <div className="relative z-10 h-2 w-2 rounded-full bg-black lg:h-3 lg:w-3"></div>
         </div>
       </div>
-
-      <style jsx>{`
-        @keyframes blink {
-          0% {
-            transform: scale(1);
-            opacity: 0.7;
-          }
-          50% {
-            transform: scale(2);
-            opacity: 0;
-          }
-          100% {
-            transform: scale(1);
-            opacity: 0.7;
-          }
-        }
-      `}</style>
     </div>
   );
 }

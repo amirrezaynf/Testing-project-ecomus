@@ -18,14 +18,14 @@ export default function Imageslider({ slug: defaultSlug }) {
 
   const items = [
     {
-      src: "/image-1.png",
+      src: "/background/image-1.png",
       alt: "Description of image 1",
       width: 700,
       height: 500,
       slug: "keyboards",
     },
     {
-      src: "/image-2.png",
+      src: "/background/image-2.png",
       alt: "Description of image 2",
       width: 700,
       slug: "Controllers",

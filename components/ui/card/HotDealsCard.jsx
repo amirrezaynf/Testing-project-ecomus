@@ -41,7 +41,7 @@ export default function HotDealsCard({
             />
             <Image
               className="absolute inset-0 h-full w-full rounded-2xl object-cover opacity-0 transition-transform duration-[1800ms] ease-in-out group-hover:scale-125 group-hover:opacity-100 lg:object-fill"
-              src={hoverImg || "/homeimg.png"}
+              src={hoverImg || "/background/homeimg.png"}
               fill
               alt={`${title} Hover`}
             />
