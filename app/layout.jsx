@@ -1,7 +1,7 @@
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
-import ScrollTopButton from "@/components/ui/button/Scrolltop";
+import ScrollTopButton from "@/components/ui/button/ScrollTopButton";
 
 export const metadata = {
   title: "E-Commerce Store",

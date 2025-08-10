@@ -4,8 +4,8 @@ import { useParams } from "next/navigation";
 import { useEffect, useState, useRef } from "react";
 import { getProductById } from "@/lib/mockProducts";
 
-import ProductImageGallery from "@/components/blocks/product/ProductImageGallery";
-import ProductDetails from "@/components/blocks/product/ProductDetails";
+import ProductImageGallery from "@/components/modules/product/ProductImageGallery";
+import ProductDetails from "@/components/modules/product/ProductDetails";
 
 export default function ProductDetailPage() {
   const params = useParams();

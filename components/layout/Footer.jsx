@@ -9,7 +9,7 @@ import Image from "next/image";
 // ##ICONS ##
 import { MdArrowOutward } from "react-icons/md";
 import { useState } from "react";
-import PaymentMethod from "@/components/ui/banner/PaymentMethod";
+import PaymentMethod from "@/components/ui/banner/PaymentMethodBanner";
 
 export default function Footer() {
   const [isHelpOpen, setIsHelpOpen] = useState(false);

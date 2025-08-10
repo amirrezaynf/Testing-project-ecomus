@@ -1,13 +1,13 @@
 "use client";
-import Autoplayer from "@/components/ui/banner/Autoplayer";
-import Brand from "@/components/ui/banner/Brand";
-import HotDeals from "@/components/blocks/home/HotDeals";
-import PapularProduct from "@/components/blocks/home/PapularProduct";
-import Recommendproduct from "@/components/blocks/home/Recommendproduct";
-import Review from "@/components/blocks/home/Review";
-import Services from "@/components/blocks/home/Services";
-import ShopByCategory from "@/components/blocks/home/ShopByCategory";
-import PicProduct from "@/components/blocks/home/PicProduct";
+import Autoplayer from "@/components/ui/banner/AutoPlayerBanner";
+import Brand from "@/components/ui/banner/BrandBanner";
+import HotDeals from "@/components/modules/home/HotDeals";
+import PapularProduct from "@/components/modules/home/PapularProduct";
+import Recommendproduct from "@/components/modules/home/Recommendproduct";
+import Review from "@/components/modules/home/Review";
+import Services from "@/components/modules/home/Services";
+import ShopByCategory from "@/components/modules/home/ShopByCategory";
+import PicProduct from "@/components/modules/home/PicProduct";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 

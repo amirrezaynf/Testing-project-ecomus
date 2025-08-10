@@ -1,7 +1,7 @@
 import React from "react";
 
 import { getAllProducts } from "../../../lib/mockProducts";
-import CategoryProducts from "../../../components/blocks/category/CategoryProducts";
+import CategoryProducts from "../../../components/modules/category/CategoryProducts";
 
 export default function CategoryPage({ params }) {
   const slug = params.slug ?? "";
