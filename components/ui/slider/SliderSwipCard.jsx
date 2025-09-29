@@ -8,7 +8,6 @@ import "swiper/css";
 export default function SliderSwip({ items, RenderCard, swiperClass = "" }) {
   return (
     <div className="mt-8 w-full px-4">
-      {/* موبایل: اسلایدر فعال */}
       <div className="block md:hidden">
         <Swiper
           modules={[Pagination]}
